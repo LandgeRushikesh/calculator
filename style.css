@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:aqua ;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1{
+    padding:20px;
+}
+.calculator{
+    background-color: rgb(0, 0, 0);
+    max-height:60vh ;
+    padding:30px 10px;
+    border-radius: 10px;
+}
+.display{
+    margin-bottom: 10px;
+}
+.display .input{
+    padding: 30px 0px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    text-align: right;
+    background-color:  rgb(60, 57, 57);
+    color: white;
+    box-sizing: border-box;
+}
+button{
+    background: none;
+    border: none;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+.Btn{
+    display: flex;
+    margin : 0px 10px;
+}
+.ex-btn{
+    margin: 0px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.num-btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(60, 57, 57);
+}
+.operator-btn{
+    display: flex;
+    flex-direction: column;
+}
+.ex-btn .btn , .operator-btn .btn , .eq{
+    background-color: rgb(192, 69, 25);
+}
